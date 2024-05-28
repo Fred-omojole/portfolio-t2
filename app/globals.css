@@ -2,32 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
+/* body {
+    background-color: #f6f5f0;
+  } */
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --dark-grey: rgb(57, 54, 50);
+  --background-color: rgb(232, 232, 227);
+  --olive-green: rgb(245, 245, 220);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stretched-text {
+  letter-spacing: -0.005em;
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+    @apply font-bold;
+  }
+  h2 {
+    @apply text-3xl;
+    @apply font-bold;
+  }
+  h3 {
+    @apply text-2xl;
+    @apply font-bold;
+  }
+  h4 {
+    @apply text-xl;
+    @apply font-semibold;
+  }
+  h5 {
+    @apply text-lg;
+    @apply font-semibold;
+  }
+  h6 {
+    @apply text-sm;
+    @apply font-semibold;
+  }
+
+  p {
+    @apply text-[#8c8c73];
   }
 }
 
+html,
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  overscroll-behavior: none;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* body {
+  overflow-y: hidden;
+} */
+
+/* satoshi styles  */
+
+.satoshi {
+  font-family: "satoshi", sans-serif;
+}
+
+.satoshi-italic {
+  font-family: "satoshi-italic", sans-serif;
 }
