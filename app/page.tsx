@@ -26,7 +26,7 @@ export default function Home() {
     <>
       {/* <Navbar /> */}
       <main className="min-h-screen   mx-auto flex flex-col items-center">
-        <div className=" relative h-screen w-full">
+        <div className=" h-screen  w-full">
           {" "}
           <div className=" mx-auto flex flex-col items-center">
             <Hero />

@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`bg-grid-small-black/[0.2] bg-background-color ${space_Grotesk.className}`}>
+      <body className={`bg-grid-small-black/[0.2] w-[100vw] bg-background-color ${space_Grotesk.className}`}>
         {children}
       </body>
     </html>

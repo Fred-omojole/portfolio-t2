@@ -32,7 +32,7 @@ const HeroNav = () => {
   ];
 
   return (
-    <nav className=" text-dark-grey py-10  flex items-center justify-between w-full px-4 ">
+    <nav className="  text-dark-grey py-10  flex items-center justify-between w-full px-4">
       <h3 className="underline underline-offset-8 -rotate-2 px-1 font-bold hover:no-underline hover:scale-125">Freddy</h3>
       <div className="flex items-center gap-3">
         {socials.map((social, index) => {

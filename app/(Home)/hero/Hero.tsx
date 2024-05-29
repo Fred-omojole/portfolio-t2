@@ -6,11 +6,11 @@ const Hero = () => {
   return (
     <>
       <HeroNav />
-      <section className=" min-h-[55vh]  xl:py-10 lg:py-8 md:py-5  md:overflow-hidden">
+      <section className=" min-h-[55vh]  xl:py-10 lg:py-8 md:py-5 py-6  md:overflow-hidden">
         <div className="">
           <div className="text-dark-grey satoshi-italic">
             {" "}
-            <h1 className="xl:text-[6vw] lg:text-[8vw] md:text-7xl   md:text-center  font-extrabold tracking-normal stretched-text">
+            <h1 className="xl:text-[6vw] lg:text-[8vw] md:text-7xl text-center  md:text-center  font-extrabold tracking-normal stretched-text">
               FRED-OMOJOLE OMOYELE
             </h1>
           </div>
@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="w-full justify-end items-end relative ">
             <div className="lg:w-[50vw] md:w-full">
               {" "}
-              <p className="md:text-center lg:text-left lg:text-2xl md:text-3xl font-bold leading-[-3] lg:tracking-normal md:tracking-tight">
+              <p className="md:text-center lg:text-left lg:ml-2 lg:text-2xl md:text-3xl font-bold leading-[-3] lg:tracking-normal md:tracking-tight">
                 An uprising and freelance front-end developer happy and willing
                 to work with startups and businesses around the world, ensuring
                 that unfair advantage over the rest.
